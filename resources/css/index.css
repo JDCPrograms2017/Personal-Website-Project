@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,800;1,200&family=Work+Sans:wght@100;400;500;800&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+#intro {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    background-color: rgb(169, 229, 245);
+}
+
+#intro .content {
+    padding: 5px;
+}
+
+#intro .content h1 {
+    font-size: 100px;
+}
+
+#intro .content p {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navigation {
+    background-color: white;
+    position: fixed;
+    z-index: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li {
+    padding: 20px;
+    list-style: none;
+}
+
+#experience {
+    margin: 300px;
+}
+
+#experience p {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+#experience .content {
+    padding-top: 50px;
+}
+
+#experience .content .image1 {
+    width: 300px;
+    margin-left: 380px;
+}
+
+#experience .content .image2 {
+    width: 190px;
+}
