@@ -5,9 +5,15 @@ body {
     margin: auto;
 }
 
-#intro {
+/*Surrounds all page content EXCEPT the navigation bar*/
+#content {
+    background-color: white;
     position: relative;
     top: 200px;
+}
+
+#intro {
+    position: relative;
     text-align: center;
     height: 350px;
     width: 100%;
@@ -72,4 +78,15 @@ h1 {
 
 #experience .content .image2 {
     width: 190px;
+}
+
+#contact .content {
+    padding-bottom: 40px;
+}
+
+#contact .content p {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    line-height: 40px;
 }
