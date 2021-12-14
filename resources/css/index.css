@@ -54,7 +54,7 @@ body {
 #intro {
     position: relative;
     text-align: center;
-    height: 350px;
+    height: 10%;
     width: 100%;
     background-color: rgb(169, 229, 245);
 }
@@ -90,7 +90,7 @@ h1 {
 }
 
 #experience td {
-    width: 75px;
+    width: 30%;
     text-align: center;
 }
 
