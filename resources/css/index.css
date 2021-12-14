@@ -78,7 +78,36 @@ h1 {
 }
 
 #experience {
-    margin: 300px;
+    margin-top: 100px;
+}
+
+#experience table {
+    width: 100%;
+}
+
+#experience table {
+    margin-top: 50px;
+}
+
+#experience td {
+    width: 75px;
+    text-align: center;
+}
+
+#experience .image2 {
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+#experience td img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+#experience .descriptions td {
+    padding-top: 50px;
+    font-size: 20px;
 }
 
 #experience p {
@@ -87,17 +116,8 @@ h1 {
     margin: auto;
 }
 
-#experience .content {
-    padding-top: 50px;
-}
-
-#experience .content .image1 {
-    width: 300px;
-    margin-left: 380px;
-}
-
-#experience .content .image2 {
-    width: 190px;
+#contact {
+    margin-top: 100px;
 }
 
 #contact .content {
