@@ -43,6 +43,7 @@ body {
 
 .navigation a:visited {
     text-decoration: none;
+    color: black;
 }
 
 /*Surrounds all page content EXCEPT the navigation bar*/
@@ -106,7 +107,7 @@ h1 {
     width: 40%;
 }
 
-#experience .descriptions td {
+#experience .languages td {
     padding-top: 50px;
     font-size: 20px;
 }
@@ -116,6 +117,43 @@ h1 {
     width: 600px;
     margin: auto;
 }
+
+#experience h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#experience a {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#experience a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#experience a:hover {
+    background-color: rgb(169, 229, 245);
+    color: white;
+}
+
+#experience .langpages h1 {
+    letter-spacing: 30px;
+}
+
+#experience #python {
+    padding: 100px 0;
+}
+
+#experience #java {
+    padding: 100px 0;
+}
+
+#experience #htmlcssjs {
+    padding: 100px 0;
+}
+
 
 #contact {
     margin-top: 100px;
