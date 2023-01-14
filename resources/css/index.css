@@ -2,31 +2,32 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-		background-color: white;
+	background-color: white;
     margin: auto;
 }
 
 /*All of the navigation stylings*/
 .navigation {
     background-color: white;
-    position: fixed;
+    position: relative;
     z-index: 0;
-    width: 100%;
+    width: 50%;
+    left: 50%;
 }
 
 .navigation ul {
-    margin-top: 20px;
-    padding: 0;
-    text-align: center;
+    padding-right: 20px;
+    text-align: right;
 }
 
 .navigation li {
     padding: 10px;
     list-style: none;
+    display: inline-block;
 }
 
 .navigation button {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif !important;
     border: none;
     background-color: transparent;
@@ -53,7 +54,13 @@ body {
 #content {
     background-color: white;
     position: relative;
-    top: 125px;
+}
+
+#content #name {
+    position: relative;
+    display: inline-block;
+    margin: 0, auto;
+    width: 40%;
 }
 
 #intro {
