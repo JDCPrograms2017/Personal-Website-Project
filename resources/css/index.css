@@ -9,10 +9,17 @@ body {
 /*All of the navigation stylings*/
 .navigation {
     background-color: white;
+    display: flex;
+    justify-content: space-between;
     position: relative;
     z-index: 0;
-    width: 50%;
-    left: 50%;
+    width: 100%;
+}
+
+.navigation h3 {
+    padding-left: 20px;
+    margin-top: 25px;
+    font-size: 20px;
 }
 
 .navigation ul {
